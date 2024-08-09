@@ -1,0 +1,71 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" ><br>
+            <label for="Password" >Password:</label>
+            <input type="text" id="Password" ><br>
+            <label for="Email" >Email:</label>
+            <input type="text" id="Email" ><br>
+            <label for="Telephone" >Telephone:</label>
+            <input type="text" id="Telephone" >
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="Age" >Age:</label>
+            <input type="text" id="Age" ><br>
+            <label for="" >Date of Birth:</label>
+            <input type="date"><br>
+            <label for="" >Preferred Contact Time:</label>
+            <input type="time"><br>
+            <label for="Website " >Website :</label>
+            <input type="text" id="Website " ><br>
+            <label for="" >Favorite color:</label>
+            <input type="color"><br>
+            <label for="" >Satisfaction Level:</label>
+            <input type="range"><br>
+            <label for="Search " >Search:</label>
+            <input type="text" id="Search" >
+        </fieldset>
+        <fieldset>
+        <legend>Preferences</legend>
+        Subscribe to newsletter:<input type="checkbox">
+        <h3>Hobbies:</h3>
+        <input type="checkbox">Reading<br>
+        <input type="checkbox">Traveling<br>
+        <input type="checkbox">Cooking<br>
+        
+        <h3>Gender:</h3>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <input type="radio" name="gender">Other<br>
+        </fieldset>
+
+        <fieldset>
+            <legend>File Upload</legend>
+            Upload your profile picture:<input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            Your Comments:<br>
+            <textarea></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Selection</legend>
+            <label for="Country">Select Country:</label>
+            <select id="Country" name="Country">
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+        </select><br>
+        </fieldset>
+
+        <input type="Submit"><input type="reset">
+
+    </body>
+</html>
